@@ -1,6 +1,10 @@
+'use client';
+import Herobg from "@/assets/Frame 8.svg";
+import Image from "next/image";
+
 const Hero = () => {
     return (
-        <section className="relative pt-20 mb-1 pb-6 md:pt-32 md:pb-32 overflow-hidden">
+        <section className="relative pt-10 pb-4 md:pt-32 md:pb-32 overflow-hidden">
             <div className="container px-4 mx-auto">
                 <div className="flex flex-col items-center text-center">
 
@@ -18,14 +22,19 @@ const Hero = () => {
                         All-In-One Collaboration and Productivity Platform
                     </h1>
 
+                    <div className="mt-16 gap-8 inline-flex items-center justify-center">
+                        <div className="mb-16">
+                            <button className="relative inline-flex items-center justify-center p-[1px] overflow-hidden rounded-lg group mt-2">
+                                <span className="absolute inset-0 bg-gradient-to-br from-[#0560E8] to-[#7000FF] group-hover:from-[#0560E8] group-hover:to-[#7000FF] opacity-100 transition-opacity duration-300"></span>
+                                <span className="relative px-3 py-1 transition-all ease-out bg-[#030014] rounded-md group-hover:bg-opacity-0 duration-300">
+                                    <span className="relative text-sm font-medium text-white">Get cypress Free</span>
+                                </span>
+                            </button>
+                            <div className="flex items-center justify-center w-full h-full">
+                                <Image src={Herobg} alt="Herobg" className="" />
+                            </div>
 
-                    <div className="mb-16">
-                        <button className="relative inline-flex items-center justify-center p-[1px] overflow-hidden rounded-lg group">
-                            <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#0560E8] to-[#7000FF] group-hover:from-[#0560E8] group-hover:to-[#7000FF] opacity-100 transition-opacity duration-300"></span>
-                            <span className="relative px-8 py-3 transition-all ease-out bg-[#030014] rounded-md group-hover:bg-opacity-0 duration-300">
-                                <span className="relative text-lg font-medium text-white">Get cypress Free</span>
-                            </span>
-                        </button>
+                        </div>
                     </div>
                 </div>
             </div>
