@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <section className="relative pt-10 pb-4 md:pt-20 md:pb-10 overflow-hidden">
-            <div className="container px-4 mx-auto">
+            <div className="container px-4 mx-auto inset-0">
                 <div className="flex flex-col items-center text-center">
 
 
@@ -22,7 +22,7 @@ const Hero = () => {
                         All-In-One Collaboration and Productivity Platform
                     </h1>
 
-                    <div className="mt-16 gap-8 inline-flex items-center justify-center overlay-purple">
+                    <div className="mt-16 gap-8 inline-flex items-center justify-center inset-0">
                         <div className="mb-16">
                             <button className="relative inline-flex items-center justify-center p-[1px] overflow-hidden rounded-lg group mt-2">
                                 <span className="absolute inset-0 bg-gradient-to-br from-[#0560E8] to-[#7000FF] group-hover:from-[#0560E8] group-hover:to-[#7000FF] opacity-100 transition-opacity duration-300"></span>

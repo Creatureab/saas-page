@@ -37,7 +37,7 @@ const Pricing = () => {
         },
         {
             title: "Pro Plan",
-            price: "$10",
+            price: "$19",
             describe: "Unlimited access for scaling teams",
             buttonText: "Get Started",
             features: [
@@ -79,16 +79,16 @@ const Pricing = () => {
                                 key={index}
                                 className={twMerge(
                                     "p-10 rounded-3xl border border-[#F1F1F1] max-w-xs w-full",
-                                    inverse === true && "border-black bg-white text-black",
-                                    inverse === false && "border-white/10 bg-white/5 text-white"
+                                    inverse && "border-black bg-white text-black",
+                                    !inverse && "border-white/10 bg-white/5 text-white"
                                 )}
                             >
                                 <div className="flex justify-between items-center whitespace-nowrap">
                                     <h3
                                         className={twMerge(
                                             "text-lg font-bold text-black/50",
-                                            inverse === true && "text-black/60",
-                                            inverse === false && "text-white/60"
+                                            inverse && "text-black/60",
+                                            !inverse && "text-white/60"
                                         )}
                                     >
                                         {item.title}
@@ -108,7 +108,7 @@ const Pricing = () => {
                                     <span
                                         className={twMerge(
                                             "tracking-tight font-bold text-black/50",
-                                            inverse === false && "text-white/50"
+                                            !inverse && "text-white/50"
                                         )}
                                     >
                                         /month
@@ -122,7 +122,7 @@ const Pricing = () => {
                                 <button
                                     className={twMerge(
                                         "w-full mt-[30px] px-4 py-2 rounded-lg font-medium cursor-pointer transition-colors",
-                                        inverse === true
+                                        inverse
                                             ? "bg-black text-white hover:bg-black/80"
                                             : "bg-white text-black hover:bg-white/90"
                                     )}
