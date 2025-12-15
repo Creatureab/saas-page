@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import Featuresbg from "@/assets/Desktop - 8.svg";
 
