@@ -68,7 +68,7 @@ const Pricing = () => {
                         The Perfect Plan For You
                     </h2>
 
-                    <p className="max-w-3xl mx-auto mb-10 text-lg md:text-2xl font-medium text-[#B6B2FF] text-left md:text-center">
+                    <p className="max-w-3xl mx-auto mb-10 text-lg md:text-2xl font-sm text-[#B6B2FF] text-left md:text-center">
                         Join thousands of satisfied users who rely on our platform for their
                         personal and professional productivity needs.
                     </p>

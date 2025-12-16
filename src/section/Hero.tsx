@@ -10,7 +10,7 @@ const Hero = () => {
 
 
                     <div className="relative mb-2 inline-flex  md:justify-start">
-                        <div className="rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
+                        <div className="rounded-full p-[2px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
                             <div className="flex items-center justify-center px-4 py-1.5 rounded-full bg-[#030014]">
                                 <span className="text-sm font-medium text-white tracking-tight">
                                     ✨ Your Workspace, Perfected
@@ -18,8 +18,6 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-
-
 
                     <h1 className="max-w-5xl mb-5 text-5xl font-bold tracking-tight text-[#B6B2FF] md:text-7xl lg:text-6xl">
                         All-In-One Collaboration and Productivity Platform
@@ -33,9 +31,11 @@ const Hero = () => {
                                     <span className="relative text-sm font-medium text-white">Get cypress Free</span>
                                 </span>
                             </button>
-                            <div className="flex items-center justify-center w-1145px h-541px mt-2">
+                            <div className="absolute inset-0 opacity-30 bg-gradient-to-r from-[#0560E8] to-[#7000FF] [mask-image:radial-gradient(50%_50%_at_16.8%_18.3%,white,transparent_65%)] [mask-image:radial-gradient(50%_50%_at_16.8%_18.3%,white,transparent_65%)] shadow-[0_0_50px_rgb(140,69,255)]"></div>
+                            <div className="flex items-center justify-center w-1145px h-541px">
                                 <Image src={Herobg} alt="Herobg" />
                             </div>
+
 
                         </div>
                     </div>
