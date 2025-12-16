@@ -12,7 +12,7 @@ const NavBar = () => {
 
     return (
         <section>
-            <header className="w-full border-b border-white/15 sticky top-0 z-10 bg-[#070019]">
+            <header className="fixed w-full border-b border-white/15 top-0 z-10 bg-[#070019]">
                 <nav className="max-w-7xl md:px-12 px-6 mx-auto flex items-center justify-between py-1">
 
                     {/* Logo */}
