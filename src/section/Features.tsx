@@ -16,13 +16,19 @@ const Features = () => {
                     </div>
                 </div>
 
-                <h2 className="text-5xl md:text-6xl max-w-2xl font-medium text-[#B6B2FF] tracking-tighter text-center mx-auto">
-                    Keep track of your meetings all in one place
-                </h2>
-                <p className="mt-6 text-lg text-center text-gray-600">
-                    Capture your ideas, thought, and meeting notes in a structured
-                    and organized manner.
-                </p>
+                <div className="px-4 sm:px-6 lg:px-0">
+                    <h2 className="text-5xl md:text-6xl max-w-2xl font-medium text-[#B6B2FF] tracking-tighter
+                 text-left md:text-center mx-auto">
+                        Keep track of your meetings all in one place
+                    </h2>
+
+                    <p className="mt-6 text-lg text-gray-600 max-w-2xl
+                text-left md:text-center mx-auto">
+                        Capture your ideas, thought, and meeting notes in a structured
+                        and organized manner.
+                    </p>
+                </div>
+
                 <div className="p-2.5 rounded-xl mt-3 flex items-center justify-center">
                     <Image
                         src={Featuresbg}

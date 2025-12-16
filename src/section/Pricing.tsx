@@ -60,12 +60,21 @@ const Pricing = () => {
                         </span>
                     </div>
                 </div>
-                <div className="flex items-center justify-center max-w-5xl mx-auto mb-2 font-bold text-[#B6B2FF] text-5xl md:text-7xl lg:text-6xl">
-                    The Perfect Plan For You
+                <div className="px-4 sm:px-6 lg:px-0">
+                    <h2 className="max-w-5xl mx-auto mb-4 font-bold text-[#B6B2FF]
+                 text-5xl md:text-7xl lg:text-6xl
+                 text-left md:text-center">
+                        The Perfect Plan For You
+                    </h2>
+
+                    <p className="max-w-3xl mx-auto mb-10
+                text-lg md:text-2xl font-bold text-[#B6B2FF]
+                text-left md:text-center">
+                        Join thousands of satisfied users who rely on our platform for their
+                        personal and professional productivity needs.
+                    </p>
                 </div>
-                <span className="block max-w-3xl mx-auto text-center text-lg md:text-2xl font-bold text-[#B6B2FF] px-5 py-2 mb-10">
-                    Join thousands of satisfied users who rely on our platform for their personal and professional productivity needs.
-                </span>
+
 
                 <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
                     {pricingData.map((item, index) => {
@@ -121,10 +130,7 @@ const Pricing = () => {
 
                                 <button
                                     className={twMerge(
-                                        "w-full mt-[30px] px-4 py-2 rounded-lg font-medium cursor-pointer transition-colors",
-                                        inverse
-                                            ? "bg-black text-white hover:bg-black/80"
-                                            : "bg-white text-black hover:bg-white/90"
+                                        "w-full mt-[30px] px-4 py-2 rounded-lg font-medium cursor-pointer transition-colors bg-white/10 text-white hover:bg-white/20 bg-gradient-to-t from-[#201F30] to-[#464553]",
                                     )}
                                 >
                                     {item.buttonText}

@@ -40,7 +40,7 @@ const Testomonials = () => {
                     </div>
                 </div>
                 <div className="flex overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
-                    <div className="flex gap-5 pr-5 flex-none text-[#B6B2FF]">
+                    <div className="flex gap-4 pl-5 flex-none text-[#B6B2FF]">
                         {[testimonialData, testimonialData, testimonialData, testimonialData].map(
                             (card, index) => (
                                 <Image

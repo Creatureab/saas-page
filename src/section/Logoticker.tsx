@@ -11,8 +11,7 @@ const Logoticker = () => {
     return (
         <section className="py-8 md:py-12">
             <div className="container mx-auto">
-                <div className="flex items-center justify-center overflow-hidden
-          [mask-image:linear-gradient(to_right,transparent,black_20px,black_80%,transparent)]">
+                <div className="flex items-center justify-center overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20px,black_80%,transparent)]">
 
                     <div className="flex items-center gap-14">
                         {[companyLogo, companyLogo1, companyLogo2, companyLogo3, companyLogo4, companyLogo5].map(
