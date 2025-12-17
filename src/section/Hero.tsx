@@ -4,13 +4,12 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <section className="relative pt-10 pb-4 md:pt-20 md:pb-10 overflow-hidden">
-            <div className="container px-4 mx-auto inset-0">
+        <section className="relative pt-10 pb-7 md:mt-10 md:pt-20 md:pb-10 overflow-hidden">
             <div className="container lg:flex lg:flex-col lg:items-center lg:text-center">
-            <div className="flex w-fit flex-col lg:items-center">
-                    <div className="mb-5">
+                <div className="flex w-fit flex-col lg:items-center">
+                    <div className="mb-10 mt-10 justify-between">
                         <div className="rounded-full p-[2px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
-                            <div className="flex justify-center px-4 py-1.5 rounded-full bg-[#030014]">
+                            <div className="flex px-5 py-2 gap-2.5 items-center rounded-full bg-[#030014]">
                                 <span className="text-sm font-medium text-white tracking-tight">
                                     ✨ Your Workspace, Perfected
                                 </span>
@@ -19,7 +18,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                    <h1 className="max-w-5xl mb-3 text-5xl font-bold tracking-tight text-[#B6B2FF] md:text-7xl lg:text-6xl">
+                    <h1 className="max-w-5xl mb-3 text-5xl font-bold tracking-tight text-[#B6B2FF] md:text-7xl lg:text-6xl justify-between">
                         All-In-One Collaboration and Productivity Platform
                     </h1>
 
@@ -45,7 +44,6 @@ const Hero = () => {
                             </div>
                     </div>
                 </div>
-            </div>
         </section>
     )
 }
