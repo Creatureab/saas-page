@@ -31,7 +31,7 @@ const Hero = () => {
                                 </span>
                             </button>
                             <div className="absolute inset-0 opacity-30 bg-gradient-to-r from-[#0560E8] to-[#7000FF] [mask-image:radial-gradient(50%_50%_at_16.8%_18.3%,white,transparent_65%)] [mask-image:radial-gradient(50%_50%_at_50%,white,transparent_65%)] shadow-[0_100px_50px_rgb(140,69,255)]"></div>
-                              <div className="flex items-center justify-center w-full max-w-[393px] md:max-w-[900px] lg:max-w-[1145px] h-auto">
+                              <div className="flex items-center justify-center w-full max-w-[393px] md:max-w-[900px] lg:max-w-[1145px] h-auto overlay-hidden">
                                 <Image 
                                   src={Herobg} 
                                   alt="Collaboration platform dashboard preview" 
@@ -42,7 +42,7 @@ const Hero = () => {
                                   />
                               </div>
                             </div>
-                            </div>
+                        </div>
                     </div>
                 </div>
         </section>
