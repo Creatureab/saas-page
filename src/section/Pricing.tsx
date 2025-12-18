@@ -52,12 +52,10 @@ const Pricing = () => {
     ];
 
     return (
-        <section className="py-4 md:py-12">
+        <section className="py-4 md:py-12 overflow-hidden">
             <div className="container">
-
-                {/* Badge */}
-                <div className="relative w-fit mx-auto mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
-                    <div className="flex items-center justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
+                <div className="relative w-fit mx-auto mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8] ml-4 sm:ml-6 lg:ml-0 md:mx-auto">
+                    <div className="flex md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
                         <span className="text-sm font-medium text-white tracking-tight">
                             Pricing
                         </span>

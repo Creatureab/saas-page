@@ -7,9 +7,9 @@ const Features = () => {
         <section className="relative py-20 md:py-24 overflow-hidden">
             <div className="container relative">
                 <div className="absolute -z-10" />
-                <div className="flex justify-center mb-2">
+                <div className="flex md:justify-center mb-2 px-3">
                     <div className="rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
-                        <div className="flex items-center justify-center px-6 py-2 rounded-full bg-[#030014]">
+                        <div className="flex md:items-center justify-center px-6 py-2 rounded-full bg-[#030014]">
                             <span className="text-sm font-medium text-white tracking-tight">
                                 Features
                             </span>
