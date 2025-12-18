@@ -6,8 +6,7 @@ const Features = () => {
     return (
         <section className="relative py-20 md:py-24 overflow-hidden">
             <div className="container relative">
-                <div className="absolute top-[320px] left-1/2 -translate-x-1/2 w-[618px] h-[529px] rounded-full bg-[#5000B5] opacity-[0.23] blur-[150px] pointer-events-none -z-10" />
-
+                <div className="absolute -z-10" />
                 <div className="flex justify-center mb-2">
                     <div className="rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
                         <div className="flex items-center justify-center px-6 py-2 rounded-full bg-[#030014]">

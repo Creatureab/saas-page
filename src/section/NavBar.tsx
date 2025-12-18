@@ -11,7 +11,7 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 lg:w-full z-20 border-b border-white/15 bg-[#070019]/80 backdrop-blur">
+    <header className="fixed top-0 left-0 lg:w-auto z-20 border-b border-white/15 bg-[#070019]/80 backdrop-blur">
       <nav className="container max-w-7xl mx-auto flex items-center justify-between px-6 md:px-12 py-1">
 
         {/* Logo */}
