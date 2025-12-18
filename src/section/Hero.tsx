@@ -7,7 +7,7 @@ const Hero = () => {
         <section className="relative pt-10 pb-7 md:mt-10 md:pt-20 md:pb-10 overflow-hidden">
             <div className="container lg:flex lg:flex-col lg:items-center lg:text-center">
                 <div className="flex w-fit flex-col lg:items-center">
-                    <div className="mb-10 mt-10 justify-between">
+                    <div className="mb-10 mt-10 px-4 md:px-0 justify-between">
                         <div className="rounded-full p-[2px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
                             <div className="flex px-5 py-2 gap-2.5 items-center rounded-full bg-[#030014]">
                                 <span className="text-sm font-medium text-white tracking-tight">
@@ -17,16 +17,16 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-
-                    <h1 className="max-w-5xl mb-3 text-5xl font-bold tracking-tight text-[#B6B2FF] md:text-7xl lg:text-6xl justify-between">
+                <div className="px-4 md:px-0">
+                    <h1 className="max-w-5xl mb-3 text-5xl font-bold tracking-tight text-[#B6B2FF] text-left md:text-center md:text-7xl lg:text-7xl justify-between">
                         All-In-One Collaboration and Productivity Platform
                     </h1>
 
                     <div className="mt-16 gap-8 inline-flex items-center justify-center inset-0">
                         <div className="mb-16">
-                            <button className="relative inline-flex items-center justify-center p-[1px] overflow-hidden rounded-lg group mt-2">
+                            <button className="relative inline-flex items-center justify-center p-[1px] overflow-hidden rounded-lg group">
                                 <span className="absolute inset-0 bg-gradient-to-br from-[#0560E8] to-[#7000FF] group-hover:from-[#0560E8] group-hover:to-[#7000FF] opacity-100 transition-opacity duration-300"></span>
-                                <span className="relative px-3 py-2 transition-all ease-out bg-[#030014] rounded-md group-hover:bg-opacity-0 duration-300">
+                                <span className="relative px-10 py-3 md:px-10 md:py-2 transition-all ease-out bg-[#030014] rounded-md group-hover:bg-opacity-0 duration-300">
                                     <span className="relative text-sm font-medium text-white">Get cypress Free</span>
                                 </span>
                             </button>
@@ -41,6 +41,7 @@ const Hero = () => {
                                   className="w-full h-auto object-contain"
                                   />
                               </div>
+                            </div>
                             </div>
                     </div>
                 </div>
