@@ -19,8 +19,8 @@ const Hero = () => {
                     <h1 className="max-w-5xl mb-3 text-5xl md:text-6xl xl:text-7xl text-left md:text-center font-bold tracking-tight text-[#B6B2FF]">
                         All-In-One Collaboration and Productivity Platform
                     </h1>
-                    <div className="mt-16 gap-8 inline-flex items-center justify-center inset-0 mb-5">
-                        <div className="relative flex flex-col items-center gap-10 md:gap-14">
+                    <div className="mt-10 md:mt-16 gap-8 inline-flex items-center justify-center inset-0 mb-5">
+                        <div className="relative flex flex-col items-center gap-4 md:gap-14">
                             <button className="relative inline-flex items-center justify-center p-[2px] rounded-xl group mt-2 overflow-hidden">
                                 <span className="absolute inset-0 rounded-xl bg-gradient-to-br from-[#0560E8] to-[#7000FF]"></span>
                                 <span className="relative z-10 px-10 py-3 md:px-10 md:py-2 rounded-xl bg-[#030014]">
@@ -28,14 +28,14 @@ const Hero = () => {
                                 </span>
                             </button>
                             <div className="absolute inset-0 bg-gradient-to-r from-[#0560E8] to-[#7000FF] opacity-10 blur-3xl [mask-image:linear-gradient(100%_100%_at_0%_0%,white_75%,transparent)]" />
-                            <div className="flex items-center justify-center w-full max-w-[393px] md:max-w-[900px] lg:max-w-[1145px] xl:max-w-[1400px] 2xl:max-w-[1600px] h-auto overflow-hidden">
+                            <div className="flex items-center justify-start md:justify-center w-full max-w-[393px] md:max-w-[900px] lg:max-w-[1145px] xl:max-w-[1400px] 2xl:max-w-[1600px] px-2 h-auto overflow-hidden">
                                 <Image
                                     src={Herobg}
                                     alt="Collaboration platform dashboard preview"
                                     width={1145}
                                     height={541}
                                     priority
-                                    className="w-full h-auto object-contain"
+                                    className="h-[350px] w-[700px] md:w-full md:h-auto object-cover object-left md:object-contain md:object-center"
                                 />
                             </div>
                         </div>

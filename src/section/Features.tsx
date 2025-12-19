@@ -28,11 +28,11 @@ const Features = () => {
                 </div>
 
                 {/* Feature Image */}
-                <div className="relative p-2.5 rounded-xl mt-14 flex items-center justify-center max-w-6xl mx-auto">
+                <div className="relative p-2.5 mt-14 max-w-6xl mx-auto flex items-center justify-start md:justify-center w-full md:max-w-[900px] overflow-hidden">
                     <Image
                         src={Featuresbg}
                         alt="Features background"
-                        className="w-full h-auto rounded-xl"
+                        className="h-[350px] w-[700px] md:w-full md:h-auto object-cover object-left md:object-contain md:object-center"
                     />
                 </div>
             </div>
