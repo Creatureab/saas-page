@@ -11,13 +11,13 @@ export default function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed md:inset-x-0 top-0 z-20 border-b border-white/15 bg-[#070019]/80">
+    <header className="fixed md:inset-x-0 top-0 z-20 w-full md:border-b md:border-white/15 bg-[#070019]/80">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-14 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex md:items-start gap-2">
             <Image src={Logo} alt="Cypress Logo" width={28} height={28} priority />
-            <span className="text-white font-semibold text-base lg:text-lg">
+            <span className="text-white font-semibold text-base lg:text-lg gap-2">
               cypress.
             </span>
           </Link>
@@ -77,7 +77,7 @@ export default function NavBar() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden overflow-hidden border-t border-white/15 bg-[#070019] transition-[max-height,opacity] duration-300 ${
+        className={`md:hidden overflow-hidden bg-[#070019] transition-[max-height,opacity] duration-300 ${
           open ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
