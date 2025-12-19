@@ -54,8 +54,8 @@ const Pricing = () => {
     return (
         <section className="py-4 md:py-12 overflow-hidden">
             <div className="container">
-                <div className="relative w-fit mx-auto mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8] ml-4 sm:ml-6 lg:ml-0 md:mx-auto">
-                    <div className="flex md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
+            <div className="relative w-fit mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8] ml-4 sm:ml-6 md:mx-auto">
+                <div className="flex md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
                         <span className="text-sm font-medium text-white tracking-tight">
                             Pricing
                         </span>
@@ -89,19 +89,7 @@ const Pricing = () => {
                             >
                                 {/* 🔮 Figma Purple Glow (Pro only) */}
                                 {isPro && (
-                                    <div
-                                        className="
-                      absolute 
-                      -top-24 left-1/2 -translate-x-1/2
-                      w-[618px] h-[529px]
-                      rounded-full
-                      bg-[#5000B5]
-                      opacity-[0.23]
-                      blur-[150px]
-                      pointer-events-none
-                      -z-10
-                    "
-                                    />
+                                    <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-[618px] h-[529px] rounded-full bg-[#5000B5] opacity-[0.23] blur-[150px] pointer-events-none -z-10" />
                                 )}
 
                                 {/* Title */}
