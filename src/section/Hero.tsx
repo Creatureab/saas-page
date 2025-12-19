@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <section className="relative flex pt-10 pb-7 md:mt-10 md:pt-20 md:pb-10 overflow-hidden">
-            <div className="container lg:flex lg:flex-col lg:items-center lg:text-center">
+            <div className="container md:flex md:flex-col md:items-center md:text-center">
                 <div className="flex w-fit flex-col px-2 md:px-3 items-start md:items-center text-left md:text-center">
                     <div className="mb-10 mt-10 px-3 md:px-0 justify-between">
                         <div className="rounded-full p-[2px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
