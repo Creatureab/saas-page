@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
     return (
         <section className="relative flex pt-10 pb-7 md:mt-10 md:pt-20 md:pb-10 overflow-hidden">
-            <div className="container md:flex md:flex-col md:items-center md:text-center">
+            <div className="container max-w-7xl mx-auto md:flex md:flex-col md:items-center md:text-center">
                 <div className="flex w-fit flex-col px-2 md:px-3 items-start md:items-center text-left md:text-center">
                     <div className="mb-10 mt-10 px-3 md:px-0 justify-between">
                         <div className="rounded-full p-[2px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8]">
@@ -16,7 +16,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className="max-w-5xl mb-3 text-5xl md:text-7xl text-left md:text-center font-bold tracking-tight text-[#B6B2FF]">
+                    <h1 className="max-w-5xl mb-3 text-5xl md:text-6xl xl:text-7xl text-left md:text-center font-bold tracking-tight text-[#B6B2FF]">
                         All-In-One Collaboration and Productivity Platform
                     </h1>
                     <div className="mt-16 gap-8 inline-flex items-center justify-center inset-0 mb-5">
@@ -27,8 +27,8 @@ const Hero = () => {
                                     <span className="relative text-sm font-medium text-white">Get cypress Free</span>
                                 </span>
                             </button>
-                            <div className="absolute inset-0 bg-gradient-to-r from-[#0560E8] to-[#7000FF] opacity-10 blur-3xl [mask-image:linear-gradient(100%_100%_at_0%_0%,white_75%,transparent)]"/>
-                            <div className="flex items-center justify-center w-full max-w-[393px] md:max-w-[900px] lg:max-w-[1145px] h-auto overflow-hidden">
+                            <div className="absolute inset-0 bg-gradient-to-r from-[#0560E8] to-[#7000FF] opacity-10 blur-3xl [mask-image:linear-gradient(100%_100%_at_0%_0%,white_75%,transparent)]" />
+                            <div className="flex items-center justify-center w-full max-w-[393px] md:max-w-[900px] lg:max-w-[1145px] xl:max-w-[1400px] 2xl:max-w-[1600px] h-auto overflow-hidden">
                                 <Image
                                     src={Herobg}
                                     alt="Collaboration platform dashboard preview"

@@ -53,9 +53,9 @@ const Pricing = () => {
 
     return (
         <section className="py-4 md:py-12 overflow-hidden">
-            <div className="container">
-            <div className="relative w-fit mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8] ml-4 sm:ml-6 md:mx-auto">
-                <div className="flex md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
+            <div className="container max-w-7xl mx-auto">
+                <div className="relative w-fit mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8] ml-4 sm:ml-6 md:mx-auto">
+                    <div className="flex md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
                         <span className="text-sm font-medium text-white tracking-tight">
                             Pricing
                         </span>
@@ -64,7 +64,7 @@ const Pricing = () => {
 
                 {/* Heading */}
                 <div className="px-4 sm:px-6 lg:px-0">
-                    <h2 className="max-w-5xl mx-auto mb-4 font-bold text-[#B6B2FF] text-5xl md:text-7xl lg:text-6xl text-left md:text-center">
+                    <h2 className="max-w-5xl mx-auto mb-4 font-bold text-[#B6B2FF] text-5xl md:text-7xl lg:text-6xl xl:text-7xl text-left md:text-center">
                         The Perfect Plan For You
                     </h2>
 

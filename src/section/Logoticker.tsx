@@ -20,7 +20,7 @@ const logos = [
 const Logoticker = () => {
     return (
         <section className="py-8 md:py-12">
-            <div className="container mx-auto">
+            <div className="container max-w-7xl mx-auto">
                 <div className="relative overflow-hidden flex justify-center
                     [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
 

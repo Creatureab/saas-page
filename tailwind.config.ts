@@ -11,7 +11,9 @@ const config: Config = {
     screens: {
       sm: "375px",
       md: "768px",
-      lg: "1440px",
+      lg: "1200px",
+      xl: "1440px",
+      "2xl": "1920px",
     },
     extend: {
       container: {
@@ -19,6 +21,8 @@ const config: Config = {
         padding: {
           DEFAULT: "20px",
           lg: "80px",
+          xl: "100px",
+          "2xl": "120px",
         },
       },
     },

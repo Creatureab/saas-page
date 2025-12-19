@@ -15,8 +15,8 @@ const footerLinks = [
 export default function Footer() {
   return (
     <footer className="border-t border-white/15 bg-[#070019]">
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 xl:px-24 2xl:px-32">
+
         {/* Top Section */}
         <div className="mb-12 max-w-md">
           <div className="flex items-center gap-2 mb-4">

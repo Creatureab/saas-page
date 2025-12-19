@@ -15,19 +15,19 @@ const testimonialData = {
 const Testimonials = () => {
     return (
         <section className="relative px-4 sm:px-6 lg:px-0 py-20 overflow-hidden">
-            <div className="container relative">
-            <div className="absolute top-[220px] left-1/2 -translate-x-1/2 w-[956px] h-[529px] rounded-full bg-[#5000B5] opacity-[0.23] blur-[150px] pointer-events-none -z-10" />
+            <div className="container max-w-7xl mx-auto relative">
+                <div className="absolute top-[220px] left-1/2 -translate-x-1/2 w-[956px] h-[529px] rounded-full bg-[#5000B5] opacity-[0.23] blur-[150px] pointer-events-none -z-10" />
                 <div className="relative w-fit mx-auto mb-3 rounded-full p-[1px] bg-gradient-to-r from-[#0560E8] via-[#7000FF] to-[#0560E8] ml-0 md:mx-auto">
-                <div className="flex items-start justify-start md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
-                    <span className="text-sm font-medium text-white tracking-tight">
+                    <div className="flex items-start justify-start md:items-center md:justify-center px-4 py-1.5 rounded-full bg-[#030014] backdrop-blur-[1px]">
+                        <span className="text-sm font-medium text-white tracking-tight">
                             Testimonials
-                    </span>
-                </div>
+                        </span>
+                    </div>
 
                 </div>
 
-                
-                <h2 className="max-w-5xl mx-auto mb-4 font-bold text-[#B6B2FF] text-5xl md:text-7xl lg:text-6xl text-left md:text-center">
+
+                <h2 className="max-w-5xl mx-auto mb-4 font-bold text-[#B6B2FF] text-5xl md:text-7xl lg:text-6xl xl:text-7xl text-left md:text-center">
                     Trusted by all
                 </h2>
 
